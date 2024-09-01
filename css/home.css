@@ -149,11 +149,66 @@
     margin: 20px;
   }
 
-/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+  * --------------------------------------------------------------------------------------------------------------------------------------------------- */
 
   /* RODAPE */
+  
+  /* redes sociais */
+  .redes {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
 
-  footer {
+  .redes>h2{
+    font-size: 30px;
+    color: white;
+  }
+
+  .redes a{
+    color: white;
+  }
+  
+  .redes img {
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+/* baixe app */
+  .baixe-app{
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+  }
+
+  .baixe-app img{
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  /* parceiros */
+  .parceiros {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .parceiros h2 {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .parceiros img {
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+
+footer {
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -165,27 +220,23 @@
       }
   }
   
-  /* redes sociais */
-  .redes {
-    padding: 0;
-    margin: 0;
+  .parceiros{
     display: flex;
-    flex-direction: column;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px;
+
+  ul {
+    display: flex;
   }
 
-  .redes a{
-    color: white;
+  h2 {
+    color: #ffffff;
   }
+}
   
-  .redes h2 {
-    font-style: oblique;
-    font-size: 30px;
-    color: white;
-    margin-top: 0;
-  }
-  
-  .redes img {
-    height: 40px;
-    margin-top: 30px;
-    margin-left: 10px;
-  }
+.appporto{
+    img{
+        height: 50px;
+    }
+}
