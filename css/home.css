@@ -141,3 +141,10 @@
       }
       
   }
+
+/* participantes */
+.participantes{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+  }
