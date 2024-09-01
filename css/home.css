@@ -165,4 +165,27 @@
       }
   }
   
+  /* redes sociais */
+  .redes {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .redes a{
+    color: white;
+  }
   
+  .redes h2 {
+    font-style: oblique;
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+  }
+  
+  .redes img {
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
