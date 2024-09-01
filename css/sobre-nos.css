@@ -45,27 +45,28 @@
     border-radius: 30px;
     transition: 0.6s;
   }
-
+/* logo da porto-carCare */
   .porto-carCare {
     display: flex;
     justify-content: flex-start;
+    margin-left: 40px;
     padding: 10px;
     img {
         width: 300px;
       }
 }
-
+/* paginas */
 .paginas{
     display: flex;
     justify-content: flex-start;
-    padding: 5px;
+    margin-left: 60px;
     font-size: 30px;
 }
 
 .paginas a{
     color: gray;
 }
-
+/* conteudo */
 .conteudo{
     padding: 10px 0 0 0;
     font-size: 25px;
@@ -73,6 +74,7 @@
     margin: 10px 60px;
 }
 
+/* link da porto */
 .link-porto{
     display: flex;
     justify-content: center;
@@ -80,8 +82,8 @@
     background-color: rgba(3, 10, 62, 0.547);
     padding: 10px;
     border-radius: 10px;
-    width: fit-content;
     font-weight: bold;
+    margin: 50px;
 }
 
 .link-porto a{
