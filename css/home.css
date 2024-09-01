@@ -5,3 +5,44 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
   }
+
+/* menu */
+
+.menu {
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  nav .menu {
+    font-size: 70px;
+    font-style: oblique;
+    color: #00a1fc;
+    font-weight: bold;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: grey;
+    border-radius: 30px;
+    transition: 0.6s;
+  }
+  
