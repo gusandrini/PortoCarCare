@@ -87,3 +87,86 @@
 .link-porto a{
     color: black;
 }
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  /* RODAPE */
+  
+  /* redes sociais */
+  .redes {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .redes>h2{
+    font-size: 30px;
+    color: white;
+  }
+
+  .redes a{
+    color: white;
+  }
+  
+  .redes img {
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+/* baixe app */
+  .baixe-app{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: white;
+  }
+
+
+  /* parceiros */
+  .parceiros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .parceiros h2 {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .parceiros img {
+    height: 100px;
+    margin: 20px;
+  }
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 0;
+    ::marker {
+        color: black;
+      }
+  }
+  
+  .parceiros{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+  }
+
+  h2 {
+    color: #ffffff;
+  }
+}
+  
+.appporto{
+    img{
+        height: 50px;
+    }
+}
