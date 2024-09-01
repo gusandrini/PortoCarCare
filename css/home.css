@@ -177,23 +177,18 @@
   }
 /* baixe app */
   .baixe-app{
+    display: flex;
+    flex-direction: column;
     font-size: 30px;
     color: white;
-    margin-top: 0;
   }
 
-  .baixe-app img{
-    height: 200px;
-    margin-top: 30px;
-    margin-left: 10px;
-  }
 
   /* parceiros */
   .parceiros {
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
   
   .parceiros h2 {
@@ -202,10 +197,8 @@
   }
   
   .parceiros img {
-    height: 60px;
-    margin-top: 30px;
-    margin-left: 10px;
-    border-radius: 10px;
+    height: 100px;
+    margin: 20px;
   }
 
 footer {
@@ -213,7 +206,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    margin-top: 0px;
     padding: 0;
     ::marker {
         color: black;
@@ -224,7 +216,6 @@ footer {
     display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50px;
 
   ul {
     display: flex;
