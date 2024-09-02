@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+  }
+
+/* menu */
+
+.menu {
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  nav .menu {
+    font-size: 70px;
+    font-style: oblique;
+    color: #00a1fc;
+    font-weight: bold;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: grey;
+    border-radius: 30px;
+    transition: 0.6s;
+  }
+/* logo da porto-carCare */
+  .porto-carCare {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+    padding: 10px;
+    img {
+        width: 300px;
+      }
+}
+/* paginas */
+.paginas{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.paginas a{
+    color: gray;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 0px 0px 100px 0px;
+    font-size: 25px;
+  }
+.lista h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 0 0 20px;
+  }
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  /* RODAPE */
+  
+  /* redes sociais */
+  .redes {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .redes>h2{
+    font-size: 30px;
+    color: white;
+  }
+
+  .redes a{
+    color: white;
+  }
+  
+  .redes img {
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+/* baixe app */
+  .baixe-app{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: white;
+  }
+
+
+  /* parceiros */
+  .parceiros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .parceiros h2 {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .parceiros img {
+    height: 100px;
+    margin: 20px;
+  }
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 0;
+    ::marker {
+        color: black;
+      }
+  }
+  
+  .parceiros{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+  }
+
+  h2 {
+    color: #ffffff;
+  }
+}
+  
+.appporto{
+    img{
+        height: 50px;
+    }
+}
