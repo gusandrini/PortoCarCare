@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: rgb(3, 10, 62);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  align-items:center ;
+}
+
+.cabecalho img{
+  width: 350px;
+}
+
+
+
+
+
+.input-area {
+  position: relative;
+}
+
+.input-area input[type="name"],
+.input-area input[type="email"],
+.input-area input[type="password"],
+.input-area input[type="tel"] {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: transparent;
+  margin: 15px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 280px;
+  height: 2px;
+  padding: 20px 40px 20px 20px;
+  backdrop-filter: blur(15px);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1, p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00a1fc;
+}
+
+.input-area i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: rgb(252, 252, 252);
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.input-area input[type="name"]:focus::placeholder,
+.input-area input[type="email"]:focus::placeholder,
+.input-area input[type="tel"]:focus::placeholder,
+.input-area input[type="password"]:focus::placeholder {
+  transform: translateY(-100%);
+  transition: transform 0.2s ease-in-out;
+  font-size: 14px;
+}
+
+.input-area input[type="name"]:not(:focus)::placeholder,
+.input-area input[type="email"]:not(:focus)::placeholder,
+.input-area input[type="tel"]:not(:focus)::placeholder,
+.input-area input[type="password"]:not(:focus)::placeholder {
+  transform: translateY(0%);
+  transition: transform 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+a.esqueceu {
+  text-decoration: none;
+  position: relative;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+a.esqueceu:hover {
+  text-decoration: underline;
+  color: #fffffffd;
+}
+
+a.cadastro {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+a.cadastro:hover {
+  text-decoration: underline;
+  color: #fffffffd;
+}
+
+.wrapper .login,
+.cadastro-page .cadastro {
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 45px;
+  width: 200px;
+  height: 30px;
+}
+
+/* Responsivo */
+
+/* Smartphones */
+@media (max-width: 900px) {
+  .wrapper,
+  .cadastro-page {
+    width: 90%;
+    height: auto;
+  }
+
+  .wrapper h2,
+  .cadastro-page h2 {
+    font-size: 24px;
+  }
+
+  .input-area input[type="name"],
+  .input-area input[type="email"],
+  .input-area input[type="password"],
+  .input-area input[type="tel"] {
+    max-width: 600px ;
+    padding: 15px 30px 15px 15px;
+    display: flex;
+  }
+
+  .wrapper .login,
+  .cadastro-page .cadastro {
+    width: 150px;
+    height: 40px;
+  }
+
+  
+}
+
+/* Tablets */
+@media (min-width: 650px) and (max-width: 1024px) {
+  .wrapper,
+  .cadastro-page {
+    width: 70%;
+    height: auto;
+  }
+
+  .wrapper h2,
+  .cadastro-page h2 {
+    font-size: 26px;
+  }
+
+  .input-area input[type="name"],
+  .input-area input[type="email"],
+  .input-area input[type="password"],
+  .input-area input[type="tel"] {
+    width: 90%;
+    padding: 18px 35px 18px 18px;
+  }
+
+  .wrapper .login,
+  .cadastro-page .cadastro {
+    width: 180px;
+    height: 35px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+  }
+}
+
+/* Desktops e outros */
+@media (min-width: 1025px) {
+  .wrapper,
+  .cadastro-page {
+    width: 400px;
+    height: 480px;
+  }
+
+  .wrapper h2,
+  .cadastro-page h2 {
+    font-size: 30px;
+  }
+
+  .input-area input[type="name"],
+  .input-area input[type="email"],
+  .input-area input[type="password"],
+  .input-area input[type="tel"] {
+    width: 280px;
+    padding: 20px 40px 20px 20px;
+  }
+
+  .wrapper .login,
+  .cadastro-page .cadastro {
+    width: 200px;
+    height: 30px;
+  }
+}
+
